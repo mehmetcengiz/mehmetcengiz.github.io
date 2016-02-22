@@ -448,7 +448,7 @@ span.animated {
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
   body {
-    background-color: white;
+    //background-color: white;
   }
   .mec-progress{
     margin-top: 3.5vw;
@@ -474,7 +474,7 @@ span.animated {
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
   body {
-    background-color: purple;
+    //background-color: purple;
   }
   .mec-progress{
     margin-top: 3.5vw;
@@ -499,7 +499,7 @@ span.animated {
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
   body {
-    background-color: blue;
+   // background-color: blue;
   }
   .mec-progress{
     margin-top: 3.3vw;
@@ -521,7 +521,7 @@ span.animated {
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
   body {
-    background-color: green;
+   // background-color: green;
   }
   .mec-progress{
     margin-top: 2.5vw;
@@ -546,7 +546,11 @@ span.animated {
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
   body {
-    background-color: #fff;
+    //background-color: #fff;
+  }
+
+  .mec-about-me-h1{
+  font-size: 80px !important;
   }
   .mec-progress{
     margin-top: 2.5vw;
@@ -672,8 +676,8 @@ hr{
   display: inline-block;
   margin-top: 10px;
   padding-top:20px;
-  width: 100px;
-  height: 100px;
+  width: 6.9em;
+  height: 6.9em;
   padding-left: 12px !important;
 }
 .contact-social a i{
