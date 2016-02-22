@@ -1,6 +1,7 @@
 /*000d15 is the bacground color*/
 body {
-  font-family: 'Roboto',sans-serif; }
+  font-family: 'Roboto',sans-serif;
+  overflow-x: hidden; }
 
 ::selection {
   background: #F48FB1;
@@ -93,7 +94,7 @@ body {
   padding-top: 167px; }
 
 .mec-about-me-h1 {
-  font-size: 80px;
+  font-size: 5rem;
   font-weight: 100;
   font-family: 'Roboto', sans-serif;
   margin-bottom: 30px;

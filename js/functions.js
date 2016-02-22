@@ -46,7 +46,8 @@ $(document).on("ready", function() {
       loop:true,
       margin:10,
       autoplay:false,
-      mouseDrag: false
+      mouseDrag: false,
+      touchDrag: false
   });
   $(".owl-nav").on("click", function(e) {
     e.preventDefault();
