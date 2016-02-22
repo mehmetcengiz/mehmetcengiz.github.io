@@ -45,9 +45,35 @@ $(document).on("ready", function() {
       items:1,
       loop:true,
       margin:10,
-      autoplay:true,
-      autoplayTimeout:5000,
-      autoplayHoverPause:true
+      autoplay:false,
+      mouseDrag: false
+  });
+  $(".owl-nav").on("click", function(e) {
+    e.preventDefault();
+
+    var $this = $(this),
+        slideIndex = $this.attr("data-slide-index");
+
+    $(".owl-nav").removeClass("active");
+    $this.addClass("active");
+
+    owl.trigger('to.owl.carousel', slideIndex - 1);
+  });
+
+  $('.smooth-scroll').on('click',function (e) {
+    e.preventDefault();
+
+    var target = this.hash,
+        $target = $(target),
+        offset = $(this).attr("data-smooth-scroll-offset");
+
+    offset = parseInt(typeof offset === "undefined" ? 0 : offset);
+
+    $('html, body').stop().animate({
+      'scrollTop': $target.offset().top + offset
+    }, 500, 'swing', function() {
+      window.location.hash = target;
+    });
   });
 
 });

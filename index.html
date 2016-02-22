@@ -28,14 +28,13 @@
                 </button>
 
                 <ul class="dropdown-menu mec-dropdownmenu" aria-labelledby="dropdownMenu1">
-                  <li><a href="#"><p>Hello</p></a></li>
-                  <li><a href="#"><p>About Me</p></a></li>
-                  <li><a href="#"><p>Skills and Abilities</p></a></li>
-                  <li><a href="#"><p>Education</p></a></li>
-                  <li><a href="#"><p>Experience</p></a></li>
-                  <li><a href="#"><p>Portfolio</p></a></li>
-                  <li><a href="#"><p>Social Networks</p></a></li>
-                  <li><a href="#"><p>Contact Me</p></a></li>
+                  <li><a href="#hello"><p>Hello</p></a></li>
+                  <li><a href="#about" class="smooth-scroll"><p>About Me</p></a></li>
+                  <li><a href="#skills" class="smooth-scroll"><p>Skills and Abilities</p></a></li>
+                  <li><a href="#education" class="smooth-scroll"><p>Education</p></a></li>
+                  <li><a href="#experience" class="smooth-scroll"><p>Experience</p></a></li>
+                  <li><a href="#portfolio" class="smooth-scroll"><p>Portfolio</p></a></li>
+                  <li><a href="#contact" class="smooth-scroll"><p>Contact Me</p></a></li>
                 </ul>
               </div>
             </div>
@@ -56,11 +55,18 @@
                 </h1>
               </div>
 
-              <div class="col-xs-12 col-xs-offset-3">
-                <h2>
-                    <span class="animated fadeInDown mec-animated mec-animated-delayed">Hello, I'm a </span>
-                    <span class="animated fadeInUp mec-animated mec-animated-delayed-2x" ><span class="rotate">Programmer,Designer,Creator</span></span>
-                </h2>
+              <div class="no-gutter">
+                <div class="col-xs-6 text-right">
+                  <h2>
+                      <span class="animated fadeInDown mec-animated mec-animated-delayed">Hello, I'm a&nbsp;</span>
+                  </h2>
+                </div>
+
+                <div class="col-xs-6 text-left">
+                  <h2>
+                      <span class="animated fadeInUp mec-animated mec-animated-delayed-2x" ><span class="rotate">Programmer,Designer,Creator</span></span>
+                  </h2>
+                </div>
               </div>
             </div>
           </div>
@@ -72,7 +78,7 @@
         </div>
       </div><!--Hello-->
 
-      <div class="row">
+      <div id="about" class="row">
         <div class="col-md-8 col-md-offset-2">
           <div class="row">
             <div class="col md 12 mec-top-padding-top">
@@ -109,7 +115,7 @@
         </div>
       </div><!--About Me-->
 
-      <div class="row mec-skills">
+      <div id="skills" class="row mec-skills">
         <div class="col-md-8 col-md-offset-2">
           <div class="row">
               <div class="col md 12 mec-top-padding-top">
@@ -1234,7 +1240,7 @@
         </div>
       </div><!--Skills & Abilities-->
 
-      <div class="row">
+      <div id="education" class="row">
         <div class="col-md-8 col-md-offset-2">
           <div class="row">
             <div class="col md 12 mec-top-padding-top">
@@ -1314,7 +1320,7 @@
         </div>
       </div><!--Education-->
 
-      <div class="row mec-workexperience-row">
+      <div id="experience" class="row mec-workexperience-row">
         <div class="col-md-8 col-md-offset-2">
           <div class="row">
               <div class="col-md-12 mec-top-padding-top">
@@ -1333,12 +1339,12 @@
           </div><!--Padding-->
 
           <div class="row mec-workexperience">
-                <ul>
-                  <li><a href=""><h3 class="mec-h3">Unknown 1</h3></a></li>
-                  <li><a href=""><h3 class="mec-h3">Unknown 2</h3></a></li>
-                  <li><a href=""><h3 class="mec-h3">Unknown 3</h3></a></li>
-                  <li><a href=""><h3 class="mec-h3">Unknown 4</h3></a></li>
-                </ul>    
+            <ul>
+              <li><a href="" data-slide-index="1" class="owl-nav active"><h3 class="mec-h3">Unknown 1</h3></a></li>
+              <li><a href="" data-slide-index="2" class="owl-nav"><h3 class="mec-h3">Unknown 2</h3></a></li>
+              <li><a href="" data-slide-index="3" class="owl-nav"><h3 class="mec-h3">Unknown 3</h3></a></li>
+              <li><a href="" data-slide-index="4" class="owl-nav"><h3 class="mec-h3">Unknown 4</h3></a></li>
+            </ul>    
           </div>
 
           <div class="row">
@@ -1364,7 +1370,7 @@
                 <div class="item">
                   <div class="row">
                     <div class="col-md-12  text-center">
-                      <h2 class="mec-text-pink mec-workexperience-carousel">Unknow Position 1</h2>
+                      <h2 class="mec-text-pink mec-workexperience-carousel">Unknow Position 2</h2>
                       
                       <p class="mec-about-me-p mec-text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis rem velit labore voluptates earum laudantium optio voluptatem voluptas sapiente vitae.</p>
                       <h5 class="mec-text-white mec-date-h5">2000-2000</h5>
@@ -1375,7 +1381,7 @@
                 <div class="item">
                   <div class="row">
                     <div class="col-md-12  text-center">
-                      <h2 class="mec-text-pink mec-workexperience-carousel">Unknow Position 1</h2>
+                      <h2 class="mec-text-pink mec-workexperience-carousel">Unknow Position 3</h2>
                       
                       <p class="mec-about-me-p mec-text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis rem velit labore voluptates earum laudantium optio voluptatem voluptas sapiente vitae.</p>
                       <h5 class="mec-text-white mec-date-h5">2000-2000</h5>
@@ -1386,7 +1392,7 @@
                 <div class="item">
                   <div class="row">
                     <div class="col-md-12  text-center">
-                      <h2 class="mec-text-pink mec-workexperience-carousel">Unknow Position 1</h2>
+                      <h2 class="mec-text-pink mec-workexperience-carousel">Unknow Position 4</h2>
                       
                       <p class="mec-about-me-p mec-text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis rem velit labore voluptates earum laudantium optio voluptatem voluptas sapiente vitae.</p>
                       <h5 class="mec-text-white mec-date-h5">2000-2000</h5>
@@ -1406,7 +1412,7 @@
         </div>
       </div><!--Work Experience-->
       
-      <div class="row">
+      <div id="portfolio" class="row">
         <div class="col-md-8 col-md-offset-2">
           <div class="row">
             <div class="col md 12 mec-top-padding-top">
@@ -1468,7 +1474,7 @@
         </div>
       </div><!--Portfolio-->
       
-      <div class="row mec-contact-row">
+      <div id="contact" class="row mec-contact-row">
         <div class="col-md-8 col-md-offset-2">
           <div class="row">
             <div class="col md 12 mec-top-padding-top">
@@ -1496,21 +1502,26 @@
 
           <div class="row">
             <div class="col-md-12 btn-class text-center contact-social">
-              <a href="#" class="social-ink">
-                <i class="fa fa-facebook-f fa-4x"></i>
+              <a target="_blank"href="http://www.facebook.com/mec471" class="social-ink">
+                <i class="fa fa-facebook-f fa-4x fa-fw"></i>
               </a>
 
               <a href="#" class="social-ink">
-                <i class="fa fa-twitter fa-4x"></i>
+                <i class="fa fa-twitter fa-4x fa-fw"></i>
               </a>
 
               <a href="#" class="social-ink">
-               <i class="fa fa-google-plus fa-4x"></i>
+               <i class="fa fa-google-plus fa-4x fa-fw"></i>
               </a>
 
               <a href="#" class="social-ink">
-                <i class="fa fa-linkedin fa-4x"></i>
+                <i class="fa fa-linkedin fa-4x fa-fw"></i>
               </a>
+
+              <a href="#" class="social-ink">
+                <i class="fa fa-soundcloud fa-4x fa-fw"></i>
+              </a>
+
             </div>
           </div>
           
@@ -1559,7 +1570,6 @@
         <div class="col-md-12 text-center">
           <h4>This is my personal web site.</h4>
           <h4>Mehmet Cengiz</h4>
-          <h4>dotmeo</h4>
         </div>
       </div>
 

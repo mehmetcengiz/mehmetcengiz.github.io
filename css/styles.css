@@ -192,6 +192,14 @@ span.animated {
   display: inline-block;
   position: relative; }
 
+.mec-workexperience ul li a.active {
+  color: #fff;
+  border-color: #ff0082;
+  text-decoration: none;
+  background-color: #ff0082; }
+  .mec-workexperience ul li a.active:hover {
+    color: #fff; }
+
 .mec-workexperience ul li a:hover {
   color: #ff0082;
   border-color: #ff0082;
@@ -209,7 +217,8 @@ span.animated {
   border-radius: 50px;
   text-align: center;
   position: relative;
-  display: block; }
+  display: block;
+  text-decoration: none; }
 
 .mec-workexperience-carousel {
   margin-bottom: 5vw; }
@@ -374,7 +383,7 @@ span.animated {
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) {
   body {
-    background-color: red; }
+    background-color: white; }
 
   .mec-progress {
     margin-top: 3.5vw; }
@@ -572,13 +581,17 @@ hr {
 .contact-social a {
   background-color: transparent;
   float: none;
-  padding: 20px;
+  padding: 13px;
   border-radius: 50%;
   border: 2px solid #fff;
   margin-left: 10px;
   margin-bottom: 10px;
   display: inline-block;
-  margin-top: 10px; }
+  margin-top: 10px;
+  padding-top: 20px;
+  width: 100px;
+  height: 100px;
+  padding-left: 12px !important; }
 
 .contact-social a i {
   color: white; }
@@ -590,5 +603,9 @@ hr {
 
 .mec-footer h4 {
   color: #9c9c9c; }
+
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0; }
 
 /*# sourceMappingURL=styles.css.map */
