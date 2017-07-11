@@ -35,9 +35,27 @@ a{
 	height:1px;
 	margin-top: 10px;
 }
-.sup-header>h3{
-	color:blue;
+.sup-header>h4{
+	color:#337ab7;
 }
 .skills>p{
 	font-weight: 700;
+}
+.education{
+
+}
+
+.education-degree{
+	font-weight: 700;
+}
+.education-school{
+	color: #969696;
+}
+.certificates>p>a{
+	color: black;
+	font-size: 15px;
+}
+.sub-skill{
+	color:#969696;
+	font-weight: 500 !important;
 }
