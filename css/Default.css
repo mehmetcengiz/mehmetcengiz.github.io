@@ -1,0 +1,10 @@
+.top-margin{
+	margin-top: 10%;
+}
+.debug-background{
+	background-color: red;
+}
+a{
+	color:#337ab7  !important;
+	font-size:20px;
+}
