@@ -64,3 +64,13 @@ a{
 }
 .gameimage>img{
 }
+.youtube-icon{
+	color:#CD201F;
+}
+.portfolio-icon>a>span{
+	color:black;
+	margin-left:10px;
+}
+.github-icon{
+	color:#6e5494;
+}
