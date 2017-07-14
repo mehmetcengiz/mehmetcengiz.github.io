@@ -69,7 +69,9 @@ a{
 }
 .portfolio-icon>a>span{
 	color:black;
+	position: relative;
 	margin-left:10px;
+	top:-7px;
 }
 .github-icon{
 	color:#6e5494;
