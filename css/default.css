@@ -8,6 +8,11 @@ a{
 	color:#337ab7  !important;
 	font-size:20px;
 }
+
+.inline-a{
+
+	font-size:15px !important;
+}
 .personal-card{
 	border-radius: 8px;
 	border:1px solid #E5E9F2;
@@ -52,7 +57,6 @@ a{
 	color: #969696;
 }
 .certificates>p>a{
-	color: black;
 	font-size: 15px;
 }
 .sub-skill{
