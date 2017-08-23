@@ -34,21 +34,26 @@
                     <div class="col-md-offset-1 col-md-10 "><!--Portfolio card-->
 
                         <div class="row gamecard-top">
-                            <div class="col-md-6 gameimage">
+                            <div class="col-md-5 gameimage">
                             	<iframe width="560" height="315" src="https://www.youtube.com/embed/iBPs9OxAbuQ" frameborder="0" allowfullscreen></iframe>
                             </div>
 
-                            <div class="col-md-6 ">
+                            <div class="col-md-7">
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-12 sup-header">
                                         <h4><strong>Testing Grounds</strong> <span class="portfolio-header"> 2017 Unreal Engine  C++</span></h4>        
                                     </div>
                                 </div>
 
                                 <div class="row">
                                     <div class="col-md-12"><!--Game explanation-->
-                                        <p>It is hunger game. There are infinite number of sections call as tiles. Every tile have random props with random locations. Guards are patrolling in 
-                                         the tiles randomly. You can sneak through guards or you can fight with them. AI perception and AI Behaviour Threes are used with Unreal Engine 4.</p>
+                                        <p>▶ AI behaviour tree is used.</p>
+                                        <p>▶ AI Guards are patrolling random points.</p>
+                                        <p>▶ AI Guards sense Player by seeing and hearing. Runs and shoots through player if he sense.</p>
+                                        <p>▶ If AI Guards lose player they goes last seen location of player. If he cant find he returns to patrolling.</p>
+                                        <p>▶ Props are spawning at free spaces randomly when new section spawned.</p>
+                                        <p>▶ Terrain is infinite. When past through section, destroys previous 2th section to free memory and adds new section ahead. </p>
+                                        <p>▶ </p>
                                     </div>
                                 </div>
 
@@ -67,20 +72,27 @@
 
                         <div class="row gamecard-top">
 
-                        	<div class="col-md-6 gameimage">
+                        	<div class="col-md-5 gameimage">
                             	<iframe width="560" height="315" src="https://www.youtube.com/embed/bSxHvIo88-c" frameborder="0" allowfullscreen></iframe>
                             </div>
 
-                            <div class="col-md-6 ">
+                            <div class="col-md-7 ">
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-12 sup-header">
                                         <h4><strong>MyOverwatch</strong> <span class="portfolio-header"> 2017 Unreal Engine  C++</span></h4>        
                                     </div>
                                 </div>
 
                                 <div class="row">
                                     <div class="col-md-12"><!--Game explanation-->
-                                        <p>MyOverwatch is smilar to Blizzard's Overwatch. It does not have any art content except Unreal Starter Content. I only created a shooting range with Soldier76. I do not have any commercial usage. It is for training purpose. Skill casting, Raycast shooting used.</p>
+                                        <p>▶ CharacterSkillCaster class created for all characters, to casting skills and dealing with cooldown.</p>
+                                        <p>▶ Delegates are created in CharacterSkillCaster that broadcasts events when any skill casted to able to implement in blueprint for designers.</p>
+                                        <p>▶ I didnt like delegate system after. I refactored to <a style="font-size:17px" href="http://gameprogrammingpatterns.com/command.html" target="_blank">Command Pattern.</a>
+                                        	You can watch <a style="font-size:17px" href="" target="_blank">My Speed Refactor video.</a> </p>
+                                        <p>▶ Soldier76Skills class created for Soldier76. It watching any skill casting events. </p>
+                                        <p>▶ Raycast Shooting Component created for any character that use ray shooting and it implemented Soldier76.</p>
+                                        <p>▶ All skills are implemented from real Soldier76 character from overwatch inside Soldier76Skills.</p>
+                                        <p>▶ </p>
                                     </div>
                                 </div>
 
@@ -98,20 +110,25 @@
                         </div>
 
                         <div class="row gamecard-top">
-                        	<div class="col-md-6 gameimage">
+                        	<div class="col-md-5 gameimage">
                             	<iframe width="560" height="315" src="https://www.youtube.com/embed/y3jlkLY03dU" frameborder="0" allowfullscreen></iframe>
                             </div>
 
-                            <div class="col-md-6">
+                            <div class="col-md-7">
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-12 sup-header">
                                         <h4><strong>BattleTank</strong><span class="portfolio-header"> 2017 Unreal Engine  C++</span></h4>        
                                     </div>
                                 </div>
 
                                 <div class="row">
                                     <div class="col-md-12"><!--Game explanation-->
-                                        <p>Open world tank battle. You are playing against AI tanks. Unreal engine 4 with C++ used. </p>
+                                        <p>▶ Tank movement and aiming implemented to APawn.</p>
+                                        <p>▶ AI tanks using Tank movement component and Tank aiming component to be have equal physics with player. </p>
+                                        <p>▶ AI tanks moving and rotating through player by using DotProduct and CrossProduct.  </p>
+                                        <p>▶ Open word terrain created and designed.</p>
+                                        <p>▶ Partical effects are used in tank projectile.</p>
+                                        <p>▶ </p>
                                     </div>
                                 </div>
 
@@ -129,22 +146,28 @@
                         </div>
 
                         <div class="row gamecard-top">
-                            <div class="col-md-6 gameimage">
+                            <div class="col-md-5 gameimage">
                                 <img width="560" height="315" src="assets/images/otismproject.png"> <!--1.Game Image-->   
                             </div>
 
-                            <div class="col-md-6 ">
+                            <div class="col-md-7 ">
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-12 sup-header">
                                         <h4><strong>Bachelor Of Science Thesis</strong><span class="portfolio-header"> 2017 Unity C#</span></h4>        
                                     </div>
                                 </div>
 
                                 <div class="row">
                                     <div class="col-md-12"><!--Game explanation-->
-                                        <p>It is a Google Cardboard game to mesure attention of Children with Autism Spectrum Disorder. Content of game is child travel through railway and see variant objects
-                                        such as Cars, Cows, Houses that they would be with different combination of colours and animations. In that time the game collects data about what the child interested in. We won
-                                        two revards in a contest which has over 300 science thesis and we have been many Turkish <a href="http://www.hurriyet.com.tr/otizmli-cocuklar-icin-oyun-gelistirdiler-40485172" target="_blank">newspaper</a> with this project.</p>
+
+                                    	<p>▶ Aim is mesuring attention of children with Autism Spectrum Disorder.</p>
+                                    	<p>▶ We trying to have scientific mesurement of attention by Virtual Reality games.</p>
+                                    	<p>▶ Object that interests of children researched by Psychology students.</p>
+                                    	<p>▶ In every seconds ScoreManager is keeping score depends on, an object is visible by player, in every section.</p>
+                                    	<p>▶ TCP/IP connection established with java server to display scores in anywhere.</p>
+                                    	<p>▶ We give; a list of object that child interested and his brain vawes, to his parents and doctors.</p>
+                                    	<p>▶ We won 2 rewards (1st place in health care category, computer engineer speacial reward) in a competition that has over 300 bachelor of science thesis.</p>
+                                    	<p>▶ We have been many Turkish <a href="http://www.hurriyet.com.tr/otizmli-cocuklar-icin-oyun-gelistirdiler-40485172" target="_blank">newspaper</a> with this project.</p>
                                     </div>
                                 </div>
 
@@ -162,20 +185,23 @@
                         </div>
 
                         <div class="row gamecard-top">
-							<div class="col-md-6 gameimage">
+							<div class="col-md-5 gameimage">
                             	<iframe width="560" height="315" src="https://www.youtube.com/embed/kQCBTCkhCGE" frameborder="0" allowfullscreen></iframe>
                             </div>
 
-                            <div class="col-md-6 ">
+                            <div class="col-md-7 ">
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-12 sup-header">
                                         <h4><strong>VRBasketball</strong><span class="portfolio-header"> 2017 Unity  C#</span></h4>        
                                     </div>
                                 </div>
 
                                 <div class="row">
                                     <div class="col-md-12"><!--Game explanation-->
-                                        <p>Basketball game on Virtual Reality. Try to score as much as you can in 120 seconds. You can throw faster by holding click more. Unity used with C# language.</p>
+                                    	<p>▶ Shooting ball on "Fire1" that makes playable with crossplatform.</p>
+                                    	<p>▶ Ball can be shotable faster by holding Fire1 button.</p>
+                                    	<p>▶ UI implemented in world space.</p>
+                                    	<p>▶ 2 Trigger used for keeping score to avoid unscored ball incrementing bug.</p>
                                     </div>
                                 </div>
 
@@ -194,21 +220,22 @@
                         </div>
 
                         <div class="row gamecard-top">
-							<div class="col-md-6 gameimage">
+							<div class="col-md-5 gameimage">
                             	<iframe width="560" height="315" src="https://www.youtube.com/embed/vgGIEb8YhUM" frameborder="0" allowfullscreen></iframe>
                             </div>
 
-                            <div class="col-md-6 ">
+                            <div class="col-md-7 ">
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-12 sup-header">
                                         <h4><strong>The Mighty Trident</strong><span class="portfolio-header"> 2017 Unity C#</span></h4>        
                                     </div>
                                 </div>
 
                                 <div class="row">
                                     <div class="col-md-12"><!--Game explanation-->
-                                        <p>2D puzzle game. Developed at global game jam Ege 2017. Subject was "Waves". Game art designed by my friend.
-                                         The point of game, you playing as poseidon and fighting with hades. Hades sending ships to kill you. You can send Waves through ship to jump out ships through hades to kill. Unity used with C# language.   </p>
+                                    	<p>▶ Global game jam subject was Vawes. Poseidon vs Hades fighting in game. </p>
+                                    	<p>▶ By holding mouse more you send bigger vawe.  </p>
+                                    	<p>▶ Hades and ships has health bigger vawes damages more. </p>
                                     </div>
                                 </div>
 
@@ -226,20 +253,23 @@
                         </div>
 
                         <div class="row gamecard-top">
-							<div class="col-md-6 gameimage">
+							<div class="col-md-5 gameimage">
                             	<iframe width="560" height="315" src="https://www.youtube.com/embed/_jcig3eyAmA" frameborder="0" allowfullscreen></iframe>
                             </div>
 
-                            <div class="col-md-6">
+                            <div class="col-md-7">
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-12 sup-header">
                                         <h4><strong>Glitch Garden</strong><span class="portfolio-header"> 2016 Unity C#</span></h4>        
                                     </div>
                                 </div>
 
                                 <div class="row">
                                     <div class="col-md-12"><!--Game explanation-->
-                                        <p>Glitch garden is similar to Plants vs Zombies. Attackers tries to come your home so you have to defend. Unity game engine used with C# language. Game Art used from www.glitchthegame.com</p>
+                                        <p>▶ Idle, Attacking, Death animation implemented for every character.</p>
+                                        <p>▶ Enemy Spawn Points created for every lane.</p>
+                                        <p>▶ Enemies spawns randomly and in random spawn points.</p>
+                                        <p>▶ Damages and Healths are changeable by designer.</p>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -256,20 +286,21 @@
                         </div>
 
                         <div class="row gamecard-top">
-							<div class="col-md-6 gameimage">
+							<div class="col-md-5 gameimage">
 								<iframe width="560" height="315" src="https://www.youtube.com/embed/y7Tr6YUOlZY" frameborder="0" allowfullscreen></iframe>
                             </div>
 
-                            <div class="col-md-6 ">
+                            <div class="col-md-7 ">
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-12 sup-header">
                                         <h4><strong>Laser Defender</strong><span class="portfolio-header"> 2016 Unity C#</span></h4>        
                                     </div>
                                 </div>
 
                                 <div class="row">
                                     <div class="col-md-12"><!--Game explanation-->
-                                        <p>Laser defender is ship battle game in space. You trying to survive as much as you can. Unity game engine used with C#.</p>
+                                        <p>▶ Ships are spawning projectile.</p>
+                                        <p>▶Partical effects implemented to giving player flying feel.</p>
                                     </div>
                                 </div>
                                 <div class="row">
